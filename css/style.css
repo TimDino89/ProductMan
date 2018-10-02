@@ -136,7 +136,7 @@ a {
 
 .slider-switcher li {
   display: inline-block;
-  margin: 2px;
+  margin: 0 2px;
   width: 10px;
   height: 10px;
   border-radius: 50%;
