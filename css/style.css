@@ -349,6 +349,10 @@ a {
   color: #979797;
 }
 
+.footer-socials li:hover i {
+  color: #000;
+}
+
 .footer-info {
   padding-bottom: 30px;
   color: #979797;
