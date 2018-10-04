@@ -196,21 +196,6 @@ img {
   font-size: 0;
 }
 
-/* .products-column {
-  display: inline-block;
-  vertical-align: top;
-}
-
-.left {
-  width: 789px;
-  padding-left: 70px;
-}
-
-.right {
-  width: calc(100% - 789px);
-  padding-right: 70px;
-} */
-
 .products-item {
   display: inline-block;
   width: 33.33%;
