@@ -4,12 +4,13 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Productman</title>
+  <title>Product Man</title>
   <link rel="shortcut icon" type="image/png" href="img/favicon.png"/>
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="libs/slick/slick.css">
   <link rel="stylesheet" href="libs/slick/slick-theme.css">
+  <link rel="stylesheet" href="libs/magnific-popup/magnific-popup.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
   <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700,900" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Raleway:400,600i,900" rel="stylesheet">
@@ -248,19 +249,19 @@
 <!-- Section News -->
 <section class="news">
   <div class="grid">
-    <div class="news-text">
-      <h2 class="news-title">ProductMan news</h2>
-      <p class="news-subtitle">
+    <div class="headline-text">
+      <h2 class="headline-title">ProductMan news</h2>
+      <p class="headline-subtitle">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. 
         Cum fugiat, exercitationem quos tenetur ad laborum etoro
       </p>
     </div>
     <form action="#" class="subscribe-form">
       <i class="far fa-envelope icon-letter"></i>
-      <input type="text" placeholder="Enter your email adress">
-      <button>Subscribe
+      <input type="text" name="email" placeholder="Enter your email adress" autocomplete="off" required>
+      <a href="#popup" class="popup">Subscribe
         <i class="fas fa-caret-right icon-caret"></i>
-      </button>
+      </a>
     </form>
   </div>
 </section>
@@ -286,8 +287,20 @@
 </footer>
 <!-- End Footer -->
 
+<!-- Popup window -->
+<div class="hidden">
+  <div id="popup">
+    <img src="img/img6.jpg" alt="">
+    <span>Вы подписаны на рассылку!
+    <i class="far fa-grin"></i>
+  </span>
+  </div>
+</div>
+<!-- End Popup window -->
+
 <!-- Scripts -->
 <script src="libs/jquery/jquery-3.3.1.min.js"></script>
+<script src="libs/magnific-popup/jquery.magnific-popup.min.js"></script>
 <script src="libs/slick/slick.min.js"></script>
 <script src="libs/mixitup/mixitup.min.js"></script>
 <script src="js/main.js"></script>
