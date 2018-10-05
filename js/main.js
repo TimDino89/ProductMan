@@ -6,4 +6,7 @@ $(document).ready(function(){
     arrows: false,
     accessebillity: true
   });
+
+  $('.container').mixItUp();
+
 });

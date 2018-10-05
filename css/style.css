@@ -66,6 +66,24 @@ img {
 }
 /* Headline */
 
+/* Main Button */
+.main-button {
+  margin-right: 10px;
+  padding: 10px 30px;
+  border: none;
+  background: #eeeeee;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-size: 14px;
+  outline: none;
+}
+
+.main-button:hover {
+  background: #e10011;
+  color: #fff;
+}
+/* End Main Button */
+
 /* Header */
 .main-header {
   padding: 50px 0;
@@ -283,6 +301,29 @@ img {
   display: block;
 }
 /* End Main */
+
+/* Promo */
+.controls {
+  text-align: center;
+}
+
+.promo-wrap {
+  margin-top: 50px;
+  padding: 50px 5px;
+  background: #fff;
+}
+
+.promo-items-wrap {
+  padding: 50px 0 0;
+  font-size: 0;
+}
+
+.mix {
+  display: none;
+  width: 25%;
+  padding: 5px;
+}
+/* End Promo */
 
 /* Section News */
 .news {
