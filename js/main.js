@@ -2,10 +2,8 @@ $(document).ready(function(){
   $('.slider-box').slick({
     dots: true,
     autoplay: true,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    centerMode: true,
-    arrows: true,
-    zIndex: '1001'
+    autoplaySpeed: 3000,
+    arrows: false,
+    accessebillity: true
   });
 });
