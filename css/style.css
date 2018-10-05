@@ -84,6 +84,47 @@ img {
 }
 /* End Main Button */
 
+/* Tooltips */
+.tooltip-text {
+  display: none;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+  font-size: 30px;
+  font-weight: 900;
+  letter-spacing: 1px;
+  color: #fff;
+  background: #e10011;
+}
+
+.tooltip-title,
+.tooltip-desc {
+  position: absolute;
+  display: block;
+  left: 30px;
+}
+
+.tooltip-title {
+  bottom: 60px;
+}
+
+.tooltip-desc {
+  bottom: 20px;
+}
+
+.tooltip-desc::after {
+  content: "";
+  display: block;
+  width: 100px;
+  height: 3px;
+  margin-top: 5px;
+  background: #fff;
+}
+/* End Tooltips */
+
 /* Header */
 .main-header {
   padding: 50px 0;
@@ -102,6 +143,10 @@ img {
   font-size: 48px;
   font-weight: 900;
   letter-spacing: 0.25px;
+}
+
+.header-logo span {
+  color: #e10011
 }
 
 .header-nav {
@@ -190,8 +235,6 @@ img {
 .slider-wrap {
   position: relative;
   text-align: center;
-  /* width: 900px;
-  margin: 0 auto; */
   padding: 50px;
   outline: none;
 }
@@ -221,7 +264,9 @@ img {
 }
 /* End Slider */
 
+
 /* Main */
+
 
 /* Products  */
 .products-gallery {
@@ -257,54 +302,12 @@ img {
   position: relative;
 }
 
-/* Tooltip */
-.tooltip-text {
-  display: none;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  border-radius: 5px;
-  font-size: 30px;
-  font-weight: 900;
-  letter-spacing: 1px;
-  color: #fff;
-  background: #e10011;
-}
-
-.tooltip-title,
-.tooltip-desc {
-  position: absolute;
-  display: block;
-  left: 30px;
-}
-
-.tooltip-title {
-  bottom: 60px;
-}
-
-.tooltip-desc {
-  bottom: 20px;
-}
-
-.tooltip-desc::after {
-  content: "";
-  display: block;
-  width: 100px;
-  height: 3px;
-  margin-top: 5px;
-  background: #fff;
-}
-
 .products-item:hover .tooltip-text {
   display: block;
 }
-/* End Tooltips */
-
 /* End Main */
 
-/* Promo */
+/* Section Promo */
 .controls {
   text-align: center;
 }
@@ -352,7 +355,7 @@ img {
 .promo-items-wrap .mix:hover .tooltip-text {
   display: block;
 }
-/* End Promo */
+/* End Section Promo */
 
 /* Section News */
 .news {
@@ -376,6 +379,7 @@ img {
   font-size: 18px;
   line-height: 24px;
 }
+/* End Section News */
 
 /* Subscribe Form */
 .subscribe-form {
