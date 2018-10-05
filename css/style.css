@@ -33,6 +33,39 @@ img {
   margin: 0 auto;
 }
 
+/* Headline */
+.headline-wrap {
+  padding-top: 100px;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  background: #fff;
+}
+
+.headline-title {
+  font-size: 48px;
+  font-weight: 900;
+  letter-spacing: 2px;
+}
+
+.headline-title::after {
+  content: "";
+  display: block;
+  width: 400px;
+  height: 35px;
+  margin: 0 auto;
+  background: url('../img/line.png') no-repeat 50% 40%;
+  background-size: 50%;
+  background-repeat: no-repeat;
+}
+
+.headline-subtitle {
+  max-width: 550px;
+  margin: 0 auto;
+  line-height: 24px;
+  font-weight: 400;
+}
+/* Headline */
+
 /* Header */
 .main-header {
   padding: 50px 0;
@@ -80,7 +113,7 @@ img {
 
 /* Section Hero */
 .hero-wrap {
-  padding-top: 55px;
+  padding: 55px 0 75px 0;
   font-size: 0;
 }
 
@@ -131,65 +164,40 @@ img {
 }
 /* End Section Hero */
 
-/* Slider Switcher */
-.slider-switcher {
-  padding: 85px 0 100px 0;
-  display: block;
+/* Section Slider */
+.slider .headline-wrap {
+  padding: 50px 0;
+}
+
+.slider-wrap {
   text-align: center;
+  padding: 50px;
+  outline: none;
 }
 
-.slider-switcher a {
-  margin: 0 2px;
-  width: 12px;
-  height: 12px;
-  border-radius: 50%;
-  background: #000;
-  cursor: pointer;
+.slider-item {
+  margin: 0 30px;
 }
 
-.slider-switcher li:first-child a {
-  background: #e10011;
+.slider-item img {
+  
 }
-/* End Slider Switcher */
+
+.slider .slick-dots {
+  bottom: -35px;
+}
+
+.slider .slick-dots li.slick-active button:before {
+  color: #e10011;
+}
+/* End Section Slider */
 
 /* Main */
 
 /* Products  */
-.products-heading,
 .products-gallery {
   background: #fff;
 }
-
-.products-heading {
-  padding-top: 100px;
-  text-align: center;
-  font-family: 'Raleway', sans-serif;
-}
-
-.products-title {
-  font-size: 48px;
-  font-weight: 900;
-  letter-spacing: 2px;
-}
-
-.products-title::after {
-  content: "";
-  display: block;
-  width: 400px;
-  height: 35px;
-  margin: 0 auto;
-  background: url('../img/line.png') no-repeat 50% 40%;
-  background-size: 50%;
-  background-repeat: no-repeat;
-}
-
-.products-subtitle {
-  max-width: 550px;
-  margin: 0 auto;
-  line-height: 24px;
-  font-weight: 400;
-}
-
 /* Products Gallery */
 .products-gallery {
   padding: 70px 70px 35px;
