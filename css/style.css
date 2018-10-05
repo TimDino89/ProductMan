@@ -179,16 +179,31 @@ img {
   margin: 0 30px;
 }
 
-.slider-item img {
-  
+.slider .slick-dots {
+  bottom: -45px;
 }
 
-.slider .slick-dots {
-  bottom: -35px;
+.slider .slick-dots li button:before {
+  font-size: 10px;
 }
 
 .slider .slick-dots li.slick-active button:before {
   color: #e10011;
+}
+
+.slider .slick-prev:before,
+.slider .slick-next:before {
+  font-size: 30px;
+}
+ 
+.slider .slick-prev:before {
+  position: absolute;
+  left: 160px;
+}
+
+.slider .slick-next:before {
+  position: absolute;
+  right: 160px;
 }
 /* End Section Slider */
 
